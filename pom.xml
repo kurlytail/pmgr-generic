@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pmgr-generic</artifactId>
-    <name>Core project manager entities</name>
+    <name>Generic project manager entities</name>
     <version>0.0.3-SNAPSHOT</version>
     <groupId>com.bst</groupId>
 
@@ -72,6 +72,11 @@
         <dependency>
             <groupId>com.bst</groupId>
             <artifactId>utility-lib</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bst</groupId>
+            <artifactId>pmgr-entities</artifactId>
             <version>0.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
