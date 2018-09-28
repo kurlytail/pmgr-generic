@@ -35,11 +35,11 @@ pipeline {
                 sh '/usr/local/bin/mvn -s settings.xml deploy' 
             }
 
-            post {
-                always{    
+//            post {
+//                always{    
                     // junit '**/surefire-reports/*.xml' 
-                }
-            }
+//                }
+//            }
         }
     }
 }
